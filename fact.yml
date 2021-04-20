@@ -1,0 +1,11 @@
+---
+- name: T
+  hosts: load_balancers
+  become: true
+  gather_facts: true
+
+  tasks:
+
+    - name: show facts
+      debug:
+        msg: "{{ ansible_facts.nodename }}"
