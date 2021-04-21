@@ -27,10 +27,10 @@
       - gcc
       - libtool
       - python3
+      - psycopg2-binary
 
     pip_dependencies:
       - virtualenv
-      - psycopg2-binary
 
   tasks:
 
