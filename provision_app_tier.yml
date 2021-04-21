@@ -27,7 +27,7 @@
       - gcc
       - libtool
       - python3
-      - psycopg2-binary
+      - python-psycopg2
 
     pip_dependencies:
       - virtualenv
